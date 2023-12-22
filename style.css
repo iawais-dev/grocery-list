@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: orange;
+    height: 100vh;
+    font-family: "Mumblers Demo";
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container{
+    height: 100vh;
+margin: 0px 0 0 0;
+background-color: white;
+width: 400px;
+text-align: center;
+/* display: flex;
+flex-direction: column; */
+} 
+.heading{
+    margin-top: 25px;
+}
+#image img{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    /* position: relative; */
+    right: 100px;
+}
+.box{
+    margin: 20px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua;   */
+    display: flex;
+}
+#user {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid ;
+height: 30px;
+width: 300px;
+}
+#allitems{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
